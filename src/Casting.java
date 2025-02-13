@@ -13,5 +13,18 @@ public class Casting {
         short num4 = 5;
         short result = (short)(num1+num4);
         System.out.println(result);
+
+        // Compound Arithmetic Operators
+        long a = 5L;
+        int b = 3;
+        b += a;
+        System.out.println(b); //b remains of type int
+
+        int x = 10;
+        // do the assignment first (x is now equal to 5)
+        // then int y = x;
+        int y = (x=5); //first sets x to 5 and then we assign the value of x to 5;
+        System.out.println(x); // 5
+        System.out.println(y); // ALSO 5
     }
 }
