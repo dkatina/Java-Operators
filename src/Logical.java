@@ -32,8 +32,8 @@ public class Logical {
     // `!(false)` evaluates to `true` because `!` inverts the value of `false`.
     // Result: true
 
-        boolean y = false;
-        boolean x = (y = true);
+        boolean p = false;
+        boolean q = (p = true);
     // The expression `(y = true)` assigns `true` to `y` and evaluates to `true` (the result of the assignment).
     // `x` is assigned the value of this expression, which is `true`.
     // Result: true
